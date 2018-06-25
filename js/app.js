@@ -1,3 +1,18 @@
+console.log("javascript is running")
+console.log(document.getElementById('card'));
+/* Flp cards to question marks */ 
+
+function setImageSource(imageId, imageSrc) {
+  $('card' + imageId).attr('src',img/Question_Mark.png);
+}
+
+
+function changePicture()
+    {
+
+    document.getElementById('card').src="img/Question_Mark.png";
+    }
+
 /*
  * Create a list that holds all of your cards
  */
