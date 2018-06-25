@@ -1,0 +1,13 @@
+
+/* styling for button images */ 
+input[type="image"] {
+    width: 150px;
+}
+
+/* Remove bullet from un ordered list */
+ul
+{
+list-style-type: none;
+display: inline;
+float:left;
+}
